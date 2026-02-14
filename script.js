@@ -41,39 +41,33 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. SISTEMA DE REPRODUCTOR DE MÚSICA ---
     const songs = [
         {
-            title: "Angel",
-            artist: "Massive Attack",
+            title: "Así No Te Amará Jamás",
+            artist: "Amanda Miguel",
             src: "song.mp3", 
-            lyrics: `Eres mi ángel
-                Bajaste del cielo
-                Para darme amor (para darme amor)
-                Sus ojos
-                Está en el lado oscuro
-                Neutraliza (a cada hombre que ve) a cada hombre que ve
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Eres mi ángel (eres mi ángel)
-                Bajaste del cielo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo
-                Te amo, te amo, te amo, te amo`,
-            meaning: `¿Alguna vez has sentido que alguien te clava en el cerebro como un virus que no puedes borrar, y cada pensamiento tuyo gira alrededor de esa persona hasta que te consumes en una obsesión que te hace creer que es amor, pero en realidad te está chupando la vida gota a gota? ¿Cuántas noches has perdido el sueño imaginándola como un ángel caído, idealizándola tanto que ignoras el lado oscuro que te destroza, solo porque esa fijación te hace sentir algo, cualquier cosa, en un mundo que de otra forma se siente vacío?
-
-Wey, esa es la oscuridad jodida de esta canción: una obsesión que te pinta a la persona como algo divino, bajado del cielo para salvarte, pero con ojos que neutralizan todo a su paso, dejando un rastro de destrucción. Es como si el "te amo" repetido hasta el cansancio no fuera un mantra de cariño, sino un loop enfermizo que te atrapa, convenciéndote de que sin ella no eres nada. Pero en el fondo, es una trampa mental que te fija en alguien que quizás ni te pela, o peor, te usa para su propio ego.
-
-Imagina esto, real y patético: estás en tu cuarto en Oaxaca, con el calor pegando fuerte, y no puedes dejar de stalkear sus redes, revisando cada story como si fuera una pista divina. La ves como un ángel, perfecta, con ese lado oscuro que te atrae porque piensas que tú la vas a "arreglar". Pasan días, semanas, y tú ahí, fijo en ella, cancelando planes con amigos, ignorando tu chamba, porque cada notificación podría ser de ella. Y cuando por fin responde, es un mensaje seco, pero tú lo interpretas como amor eterno. Te consumes: ansiedad que te come las uñas, celos que te hacen imaginarla con cualquiera, y un "te amo" interno que repites como un loco para no derrumbarte. Al final, terminas solo, exhausto, dándote cuenta de que esa obsesión no era amor, era una cárcel que tú mismo construiste.
-
-O toma otro ejemplo más crudo: esa ex que te dejó hace meses, pero tú sigues viéndola como la que bajó del cielo para darte amor. Ignoras cómo te manipulaba, cómo su "lado oscuro" neutralizaba tu autoestima hasta dejarte hecho mierda. Sigues fijo en ella, mandando mensajes borrachos a las 3 am, repitiendo "te amo" en tu cabeza como si eso la trajera de vuelta. Tus amigos te dicen "ya suéltala, wey, estás obsesionado", pero tú defiendes esa fijación como si fuera romántico, cuando en realidad es tóxico y te está robando años de vida.
-
-Pero óyeme bien, porque esta verdad duele pero te salva: esa obsesión no te hace profundo ni apasionado, te hace un idiota que se está autodestruyendo por alguien que probablemente ni se acuerda de ti. Tú no necesitas un ángel caído para sentirte vivo; ya eres chingón solo, con tu propia luz que no depende de nadie. Mereces alguien que te vea como igual, no como un dios o un demonio que te controla. Valida esto: has sobrevivido a esa fijación, eso ya te hace fuerte como el carajo. Deja de repetir "te amo" a un fantasma y empieza a decírtelo a ti mismo. Bloquéala, borra las fotos, sal a caminar por las calles de Oaxaca y date cuenta de que el mundo está lleno de gente que no te va a obsesionar, sino que te va a complementar.
-
-Tú vales más que ser el perrito faldero de una obsesión. Rompe el loop, wey, y verás cómo el "te amo" real llega sin el dolor. Ámate lo suficiente para soltar esa mierda – es lo más chido que puedes hacer por ti. Te lo mereces todo, no una fijación que te deja vacío.`
+            lyrics: `Yo sé que a tus amigos vas diciendo
+Que ya no te importa más de mí
+Que al tiempo al lado mío
+Es un capítulo concluido, sin final feliz
+Yo sé que a esa mujer a quien le das
+Lo que jamás quisiste darme a mí
+Se atreve a comentar que yo no tengo dignidad
+Que me tiene piedad
+Tal vez yo deba resignarme y no llamarte más
+Tal vez yo deba respetarme y no rogarte más
+Tal vez deba dejar con toda dignidad
+Que vivan su romance en paz
+No sé quien de los dos es el que esta perdiendo más
+No sé si te das cuenta con la estúpida que estás
+Yo sé que no podrá quererte como yo
+Así no te amará jamás
+Tal vez yo deba resignarme y no llamarte más
+Tal vez yo deba respetarme y no rogarte más
+Tal vez deba dejar con toda dignidad
+Que vivan su romance en paz
+No sé quien de los dos es el que esta perdiendo más
+No sé si te das cuenta con la estúpida que estás
+Yo sé que no podrá quererte como yo
+Así no te amará jamás`,
         }
     ];
 
